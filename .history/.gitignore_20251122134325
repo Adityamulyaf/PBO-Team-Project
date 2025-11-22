@@ -1,0 +1,28 @@
+# Build & binary
+bin/
+build/
+out/
+target/
+*.class
+*.jar
+
+# IDE / Editor ===
+vscode/
+.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# === Sistem OS ===
+.DS_Store
+Thumbs.db
+
+# === Log & temporary ===
+*.log
+*.tmp
+
+# === Jika nanti pakai Gradle/Maven (jaga-jaga) ===
+.gradle/
+.gradle-cache/
+.mvn/
