@@ -32,9 +32,9 @@ public class LoginFrame extends JFrame {
         mainPanel.setBackground(Color.WHITE);
 
         // Title
-        JLabel titleLabel = new JLabel("Booking Kelas FATISDA", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Panggon FATISDA", SwingConstants.CENTER);
         titleLabel.setFont(new Font("SansSerif", Font.BOLD, 24));
-        titleLabel.setForeground(new Color(30, 41, 59));
+        titleLabel.setForeground(new Color(0, 84, 197));
         mainPanel.add(titleLabel, BorderLayout.NORTH);
 
         // Form Panel
