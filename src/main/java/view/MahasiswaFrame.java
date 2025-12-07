@@ -70,7 +70,7 @@ public class MahasiswaFrame extends JFrame {
 
     private JPanel createHeaderPanel() {
         JPanel panel = new JPanel(new BorderLayout());
-        panel.setBackground(new Color(30, 41, 59));
+        panel.setBackground(UIConstants.BG_PANEL);
         panel.setBorder(BorderFactory.createEmptyBorder(15, 20, 15, 20));
 
         JLabel titleLabel = new JLabel("Peminjaman Ruangan");
