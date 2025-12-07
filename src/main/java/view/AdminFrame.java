@@ -84,10 +84,10 @@ public class AdminFrame extends JFrame {
 
     private JPanel createHeaderPanel() {
         JPanel panel = new JPanel(new BorderLayout());
-        panel.setBackground(new Color(30, 41, 59));
+        panel.setBackground(UIConstants.BG_PANEL);
         panel.setBorder(BorderFactory.createEmptyBorder(15, 20, 15, 20));
 
-        JLabel titleLabel = new JLabel("Admin Panel");
+        JLabel titleLabel = new JLabel("Admin");
         titleLabel.setFont(UIConstants.TITLE_FONT);
         titleLabel.setForeground(Color.WHITE);
         panel.add(titleLabel, BorderLayout.WEST);
